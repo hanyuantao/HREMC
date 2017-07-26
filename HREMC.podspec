@@ -15,8 +15,8 @@ Pod::Spec.new do |s|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  s.name         = "EMC-HAIER"
-  s.version      = "1.0.1"
+  s.name         = "HREMC"
+  s.version      = "1.0.0"
   s.summary      = "haier EMC"
 
   # This description is used to generate tags and improve search results.
@@ -27,7 +27,7 @@ Pod::Spec.new do |s|
   #s.description  = <<-DESC
   #                DESC
 
-  s.homepage     = "https://github.com/785666903/EMC-HAIER"
+  s.homepage     = "https://github.com/hanyuantao/HREMC.git"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -52,7 +52,7 @@ Pod::Spec.new do |s|
   #  profile URL.
   #
 
-  s.author             = { "孙晓昱" => "785666903@qq.com" }
+  s.author             = { "once" => "545574484@qq.com" }
   # Or just: s.author    = "孙晓昱"
   # s.authors            = { "孙晓昱" => "785666903@qq.com" }
   # s.social_media_url   = "http://twitter.com/孙晓昱"
@@ -79,7 +79,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/785666903/EMC-HAIER.git", :tag => "1.0.1" }
+  s.source       = { :git => "https://github.com/hanyuantao/HREMC.git", :tag => "1.0.0" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -90,9 +90,10 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "EMC/", "EMC.{h,m}"
-  s.exclude_files = "Classes/Exclude"
+  # s.source_files  = "EMC/", "EMC.{h,m}"
+  s.source_files  = "EMC/*.{h,m}"
 
+  # s.exclude_files = "Classes/Exclude"
   # s.public_header_files = "Classes/**/*.h"
 
 
@@ -118,8 +119,8 @@ Pod::Spec.new do |s|
 
   # s.framework  = "SomeFramework"
   # s.frameworks = "SomeFramework", "AnotherFramework"
-  s.frameworks = "UIKit", "Foundation" ,"CoreTelephony", "CoreGraphics", "QuartzCore", "SystemConfiguration", "AudioToolbox", "AddressBook", "AVFoundation", "CoreLocation", "AssetsLibrary", "iflyMSC"
-#s.vendored_framework = 'iflyMSC.framework'
+  s.frameworks = "UIKit", "Foundation" ,"CoreTelephony", "CoreGraphics", "QuartzCore", "SystemConfiguration", "AudioToolbox", "AddressBook", "AVFoundation", "CoreLocation", "AssetsLibrary"
+  s.vendored_framework = 'EMC/iflyMSC.framework'
 
   # s.library   = "iconv"
   # s.libraries = "iconv", "xml2"
