@@ -90,9 +90,9 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  # s.source_files  = "EMC/", "EMC.{h,m}"
-  s.source_files  = "HREMC/*.{h,m}"
-
+  s.source_files  = "HREMC/", "EMC/*.{h,m}"
+  # s.source_files  = "EMC/*.{h,m}"
+#
   # s.exclude_files = "Classes/Exclude"
   # s.public_header_files = "Classes/**/*.h"
 
@@ -120,7 +120,7 @@ Pod::Spec.new do |s|
   # s.framework  = "SomeFramework"
   # s.frameworks = "SomeFramework", "AnotherFramework"
   s.frameworks = "UIKit", "Foundation" ,"CoreTelephony", "CoreGraphics", "QuartzCore", "SystemConfiguration", "AudioToolbox", "AddressBook", "AVFoundation", "CoreLocation", "AssetsLibrary"
-  s.vendored_framework = 'iflyMSC.framework'
+  s.vendored_framework  = "HREMC/", "EMC/iflyMSC.framework"
 
   # s.library   = "iconv"
   # s.libraries = "iconv", "xml2"
