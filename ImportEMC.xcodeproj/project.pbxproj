@@ -27,9 +27,6 @@
 		7E8D0AD71DD1A97C00051C4F /* WebViewJavascriptBridge.js.txt in Resources */ = {isa = PBXBuildFile; fileRef = 7E8D0ACA1DD1A97C00051C4F /* WebViewJavascriptBridge.js.txt */; };
 		7E8D0AD81DD1A97C00051C4F /* WebViewJavascriptBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E8D0ACB1DD1A97C00051C4F /* WebViewJavascriptBridge.m */; };
 		7E8D0ADA1DD1B33900051C4F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E8D0AD91DD1B33900051C4F /* Main.storyboard */; };
-		A61691E21F28F32000126F60 /* CardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A61691DE1F28F32000126F60 /* CardViewController.m */; };
-		A61691E31F28F32000126F60 /* iflyMSC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A61691DF1F28F32000126F60 /* iflyMSC.framework */; };
-		A61691E41F28F32000126F60 /* NSData+CommonCrypto.m in Sources */ = {isa = PBXBuildFile; fileRef = A61691E11F28F32000126F60 /* NSData+CommonCrypto.m */; };
 		A628C2E71EB9E8D500D56319 /* libzbar.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A628C2E61EB9E8D500D56319 /* libzbar.a */; };
 /* End PBXBuildFile section */
 
@@ -83,11 +80,6 @@
 		7E8D0ACA1DD1A97C00051C4F /* WebViewJavascriptBridge.js.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = WebViewJavascriptBridge.js.txt; sourceTree = "<group>"; };
 		7E8D0ACB1DD1A97C00051C4F /* WebViewJavascriptBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewJavascriptBridge.m; sourceTree = "<group>"; };
 		7E8D0AD91DD1B33900051C4F /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
-		A61691DD1F28F32000126F60 /* CardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardViewController.h; sourceTree = "<group>"; };
-		A61691DE1F28F32000126F60 /* CardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardViewController.m; sourceTree = "<group>"; };
-		A61691DF1F28F32000126F60 /* iflyMSC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = iflyMSC.framework; sourceTree = "<group>"; };
-		A61691E01F28F32000126F60 /* NSData+CommonCrypto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+CommonCrypto.h"; sourceTree = "<group>"; };
-		A61691E11F28F32000126F60 /* NSData+CommonCrypto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+CommonCrypto.m"; sourceTree = "<group>"; };
 		A628C2E61EB9E8D500D56319 /* libzbar.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libzbar.a; sourceTree = "<group>"; };
 		A6EA82BA0F6A5BFC3AC9E12F /* libPods-ImportEMC.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ImportEMC.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF5F51A3437EB3ABD463BC66 /* Pods-ImportEMC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ImportEMC.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ImportEMC/Pods-ImportEMC.debug.xcconfig"; sourceTree = "<group>"; };
@@ -98,7 +90,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A61691E31F28F32000126F60 /* iflyMSC.framework in Frameworks */,
 				7E8D0A9F1DD199B200051C4F /* libiconv.tbd in Frameworks */,
 				2505C372C206CD430F2F3CA3 /* libPods-ImportEMC.a in Frameworks */,
 				A628C2E71EB9E8D500D56319 /* libzbar.a in Frameworks */,
@@ -111,7 +102,6 @@
 		7E8D0A7A1DD1997B00051C4F = {
 			isa = PBXGroup;
 			children = (
-				A61691DC1F28F32000126F60 /* EMC */,
 				7E8D0AA01DD1A97C00051C4F /* oldEMC */,
 				7E8D0A851DD1997C00051C4F /* ImportEMC */,
 				7E8D0A841DD1997C00051C4F /* Products */,
@@ -245,18 +235,6 @@
 				7E8D0AC11DD1A97C00051C4F /* zbar-samples.png */,
 			);
 			path = Resources;
-			sourceTree = "<group>";
-		};
-		A61691DC1F28F32000126F60 /* EMC */ = {
-			isa = PBXGroup;
-			children = (
-				A61691DD1F28F32000126F60 /* CardViewController.h */,
-				A61691DE1F28F32000126F60 /* CardViewController.m */,
-				A61691DF1F28F32000126F60 /* iflyMSC.framework */,
-				A61691E01F28F32000126F60 /* NSData+CommonCrypto.h */,
-				A61691E11F28F32000126F60 /* NSData+CommonCrypto.m */,
-			);
-			path = EMC;
 			sourceTree = "<group>";
 		};
 		C0EFEA8322DA2F7F5A928514 /* Pods */ = {
@@ -400,11 +378,9 @@
 			files = (
 				7E8D0AD61DD1A97C00051C4F /* ScannerOverlayView.m in Sources */,
 				7E8D0AD81DD1A97C00051C4F /* WebViewJavascriptBridge.m in Sources */,
-				A61691E41F28F32000126F60 /* NSData+CommonCrypto.m in Sources */,
 				7E8D0AD31DD1A97C00051C4F /* LinkViewController.m in Sources */,
 				7E8D0AD51DD1A97C00051C4F /* MBProgressHUD.m in Sources */,
 				7E8D0A8E1DD1997C00051C4F /* ViewController.m in Sources */,
-				A61691E21F28F32000126F60 /* CardViewController.m in Sources */,
 				7E8D0A8B1DD1997C00051C4F /* AppDelegate.m in Sources */,
 				7E8D0ACC1DD1A97C00051C4F /* EMCViewController.m in Sources */,
 				7E8D0A881DD1997C00051C4F /* main.m in Sources */,
@@ -466,7 +442,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -509,7 +485,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -528,7 +504,6 @@
 					"$(PROJECT_DIR)/EMC",
 				);
 				INFOPLIST_FILE = ImportEMC/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
@@ -551,7 +526,6 @@
 					"$(PROJECT_DIR)/EMC",
 				);
 				INFOPLIST_FILE = ImportEMC/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",

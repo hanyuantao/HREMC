@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'F59633A3B891FC216012338E937200A1'
+               BlueprintIdentifier = '052F073785A926A877203AC4EBA4B83E'
                BlueprintName = 'Pods-ImportEMC'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'libPods-ImportEMC.a'>

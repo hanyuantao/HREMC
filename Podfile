@@ -1,9 +1,9 @@
+source 'https://git.coding.net/ws21san/Manager.git'
 source 'https://github.com/CocoaPods/Specs.git'
 
-platform :ios, '7.0'
+platform :ios, '9.0'
 
 target 'ImportEMC' do
-pod 'AFNetworking', '~> 3.1.0'
-pod 'QRScan', '~> 1.0.1'
+pod 'EMC', '~> 1.0.7'
 
 end

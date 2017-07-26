@@ -14,16 +14,19 @@ PODS:
   - AFNetworking/Serialization (3.1.0)
   - AFNetworking/UIKit (3.1.0):
     - AFNetworking/NSURLSession
+  - EMC (1.0.7):
+    - AFNetworking (~> 3.1.0)
+    - QRScan (~> 1.0.1)
   - QRScan (1.0.1)
 
 DEPENDENCIES:
-  - AFNetworking (~> 3.1.0)
-  - QRScan (~> 1.0.1)
+  - EMC (~> 1.0.7)
 
 SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  EMC: d3bbb9b8789ed6cdeffe894422ac809933c1f063
   QRScan: f87a0ab588c39ea7694ac719206ac97272a30e3c
 
-PODFILE CHECKSUM: 83228767e30eb7799e2636a729496027eb714682
+PODFILE CHECKSUM: 66dd92fd9ca047d5d25795eb313350103d43cbcd
 
 COCOAPODS: 1.2.1
