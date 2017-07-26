@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  s.name         = "EMC"
+  s.name         = "HREMC"
   s.version      = "1.0.0"
   s.summary      = "haier EMC"
 
@@ -90,7 +90,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  # s.source_files  = "HREMC/", "EMC/*.{h,m}"
+  # s.source_files  = "EMC/", "EMC/*.{h,m}"
   s.source_files  = "EMC/*.{h,m}"
 #
   # s.exclude_files = "Classes/Exclude"
