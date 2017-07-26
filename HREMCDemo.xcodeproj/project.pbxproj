@@ -13,6 +13,9 @@
 		A61691C71F28E22900126F60 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A61691C51F28E22900126F60 /* Main.storyboard */; };
 		A61691C91F28E22900126F60 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A61691C81F28E22900126F60 /* Assets.xcassets */; };
 		A61691CC1F28E22900126F60 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A61691CA1F28E22900126F60 /* LaunchScreen.storyboard */; };
+		A61691D91F28EC2600126F60 /* CardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A61691D51F28EC2600126F60 /* CardViewController.m */; };
+		A61691DA1F28EC2600126F60 /* iflyMSC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A61691D61F28EC2600126F60 /* iflyMSC.framework */; };
+		A61691DB1F28EC2600126F60 /* NSData+CommonCrypto.m in Sources */ = {isa = PBXBuildFile; fileRef = A61691D81F28EC2600126F60 /* NSData+CommonCrypto.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,11 @@
 		A61691C81F28E22900126F60 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A61691CB1F28E22900126F60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A61691CD1F28E22900126F60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A61691D41F28EC2600126F60 /* CardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardViewController.h; sourceTree = "<group>"; };
+		A61691D51F28EC2600126F60 /* CardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardViewController.m; sourceTree = "<group>"; };
+		A61691D61F28EC2600126F60 /* iflyMSC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = iflyMSC.framework; sourceTree = "<group>"; };
+		A61691D71F28EC2600126F60 /* NSData+CommonCrypto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+CommonCrypto.h"; sourceTree = "<group>"; };
+		A61691D81F28EC2600126F60 /* NSData+CommonCrypto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+CommonCrypto.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +41,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A61691DA1F28EC2600126F60 /* iflyMSC.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +51,7 @@
 		A61691B01F28E22900126F60 = {
 			isa = PBXGroup;
 			children = (
+				A61691D31F28EC2600126F60 /* EMC */,
 				A61691BB1F28E22900126F60 /* HREMCDemo */,
 				A61691BA1F28E22900126F60 /* Products */,
 			);
@@ -77,6 +87,18 @@
 				A61691BD1F28E22900126F60 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A61691D31F28EC2600126F60 /* EMC */ = {
+			isa = PBXGroup;
+			children = (
+				A61691D41F28EC2600126F60 /* CardViewController.h */,
+				A61691D51F28EC2600126F60 /* CardViewController.m */,
+				A61691D61F28EC2600126F60 /* iflyMSC.framework */,
+				A61691D71F28EC2600126F60 /* NSData+CommonCrypto.h */,
+				A61691D81F28EC2600126F60 /* NSData+CommonCrypto.m */,
+			);
+			path = EMC;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,7 +173,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A61691D91F28EC2600126F60 /* CardViewController.m in Sources */,
 				A61691C41F28E22900126F60 /* ViewController.m in Sources */,
+				A61691DB1F28EC2600126F60 /* NSData+CommonCrypto.m in Sources */,
 				A61691C11F28E22900126F60 /* AppDelegate.m in Sources */,
 				A61691BE1F28E22900126F60 /* main.m in Sources */,
 			);
@@ -274,6 +298,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = UMVWZ2UWAB;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/EMC",
+				);
 				INFOPLIST_FILE = HREMCDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.school.HREMCDemo;
@@ -286,6 +314,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = UMVWZ2UWAB;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/EMC",
+				);
 				INFOPLIST_FILE = HREMCDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.school.HREMCDemo;
@@ -312,6 +344,7 @@
 				A61691D21F28E22900126F60 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
