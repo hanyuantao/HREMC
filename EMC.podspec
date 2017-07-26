@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  s.name         = "HREMCDemo"
+  s.name         = "EMC"
   s.version      = "1.0.0"
   s.summary      = "haier EMC"
 
@@ -120,7 +120,7 @@ Pod::Spec.new do |s|
   # s.framework  = "SomeFramework"
   # s.frameworks = "SomeFramework", "AnotherFramework"
   s.frameworks = "UIKit", "Foundation" ,"CoreTelephony", "CoreGraphics", "QuartzCore", "SystemConfiguration", "AudioToolbox", "AddressBook", "AVFoundation", "CoreLocation", "AssetsLibrary"
-  s.vendored_frameworks  = "iflyMSC.framework"
+  s.vendored_frameworks  = "EMC/iflyMSC.framework"
 
   # s.library   = "iconv"
   # s.libraries = "iconv", "xml2"
