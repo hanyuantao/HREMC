@@ -4,6 +4,7 @@ source 'https://github.com/CocoaPods/Specs.git'
 platform :ios, '9.0'
 
 target 'ImportEMC' do
-pod 'EMC', '~> 1.0.7'
+pod 'AFNetworking', '~> 3.1.0'
+pod "QRScan", "~> 1.0.1"
 
 end

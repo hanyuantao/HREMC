@@ -9,11 +9,6 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>EMC.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
 		<key>Pods-ImportEMC.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -27,22 +22,17 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>052F073785A926A877203AC4EBA4B83E</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>3898D36635D383C1F1D389FD864E8259</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>898AEB6F2A2929579730A346AD31BA7F</key>
+		<key>82EFF23AE49CEB607AFB14E86C7953B5</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
 		<key>9E033EDB5EC0819481B0546434FA577B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F59633A3B891FC216012338E937200A1</key>
 		<dict>
 			<key>primary</key>
 			<true/>

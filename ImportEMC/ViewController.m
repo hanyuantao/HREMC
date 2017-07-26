@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-#import "CardViewController.h"  
+#import "CardViewController.h"
 #import "EMCViewController.h"
 @interface ViewController ()
 

@@ -11,8 +11,6 @@
 #import "iflyMSC/IFlyMSC.h"
 
 
-
-
 @interface CardViewController : UIViewController <IFlyRecognizerViewDelegate>
 {
     IFlyRecognizerView      *_iflyRecognizerView;
