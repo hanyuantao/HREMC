@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
 
 
   # s.source       = { :git => "https://github.com/hanyuantao/HREMC.git", :tag => "1.0.0" }
-  s.source       = { :git => "https://github.com/hanyuantao/HREMC.git", :commit => "0d6761feefccff1f7d8b7c7788ceb8e9cd1314ea" }
+  s.source       = { :git => "https://github.com/hanyuantao/HREMC.git", :commit => "eaa121b46dc63e57ef74477049efa4666948577c" }
 
 
   # s.source_files  = "HREMC/", "HREMC/.{h,m}"
@@ -36,7 +36,7 @@ Pod::Spec.new do |s|
   # s.framework  = "SomeFramework"
   # s.frameworks = "SomeFramework", "AnotherFramework"
   s.frameworks = "UIKit", "Foundation" ,"CoreTelephony", "CoreGraphics", "QuartzCore", "SystemConfiguration", "AudioToolbox", "AddressBook", "AVFoundation", "CoreLocation", "AssetsLibrary"
-  # s.vendored_frameworks  = "HREMC/iflyMSC.framework"
+  s.vendored_frameworks  = "HREMC/iflyMSC.framework"
 
   # s.library   = "iconv"
   # s.libraries = "iconv", "xml2"
