@@ -27,8 +27,6 @@
 		7E8D0AD71DD1A97C00051C4F /* WebViewJavascriptBridge.js.txt in Resources */ = {isa = PBXBuildFile; fileRef = 7E8D0ACA1DD1A97C00051C4F /* WebViewJavascriptBridge.js.txt */; };
 		7E8D0AD81DD1A97C00051C4F /* WebViewJavascriptBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E8D0ACB1DD1A97C00051C4F /* WebViewJavascriptBridge.m */; };
 		7E8D0ADA1DD1B33900051C4F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E8D0AD91DD1B33900051C4F /* Main.storyboard */; };
-		A61691F41F28F90A00126F60 /* CardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A61691F01F28F90A00126F60 /* CardViewController.m */; };
-		A61691F61F28F90A00126F60 /* NSData+CommonCrypto.m in Sources */ = {isa = PBXBuildFile; fileRef = A61691F31F28F90A00126F60 /* NSData+CommonCrypto.m */; };
 		A61691F91F28F9EA00126F60 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A61691F81F28F9EA00126F60 /* UIKit.framework */; };
 		A61691FB1F28F9FF00126F60 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A61691FA1F28F9FF00126F60 /* Foundation.framework */; };
 		A61691FD1F28FA0900126F60 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A61691FC1F28FA0900126F60 /* CoreTelephony.framework */; };
@@ -40,8 +38,10 @@
 		A61692091F28FA3C00126F60 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A61692081F28FA3C00126F60 /* AVFoundation.framework */; };
 		A616920B1F28FA4300126F60 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A616920A1F28FA4300126F60 /* CoreLocation.framework */; };
 		A616920D1F28FA4900126F60 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A616920C1F28FA4900126F60 /* AssetsLibrary.framework */; };
-		A616920E1F28FA5300126F60 /* iflyMSC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A61691F11F28F90A00126F60 /* iflyMSC.framework */; };
 		A61692101F28FA9A00126F60 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A616920F1F28FA9A00126F60 /* libz.tbd */; };
+		A61692171F2982CB00126F60 /* CardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A61692131F2982CB00126F60 /* CardViewController.m */; };
+		A61692181F2982CB00126F60 /* iflyMSC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A61692141F2982CB00126F60 /* iflyMSC.framework */; };
+		A61692191F2982CB00126F60 /* NSData+CommonCrypto.m in Sources */ = {isa = PBXBuildFile; fileRef = A61692161F2982CB00126F60 /* NSData+CommonCrypto.m */; };
 		A628C2E71EB9E8D500D56319 /* libzbar.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A628C2E61EB9E8D500D56319 /* libzbar.a */; };
 /* End PBXBuildFile section */
 
@@ -95,11 +95,6 @@
 		7E8D0ACA1DD1A97C00051C4F /* WebViewJavascriptBridge.js.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = WebViewJavascriptBridge.js.txt; sourceTree = "<group>"; };
 		7E8D0ACB1DD1A97C00051C4F /* WebViewJavascriptBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewJavascriptBridge.m; sourceTree = "<group>"; };
 		7E8D0AD91DD1B33900051C4F /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
-		A61691EF1F28F90A00126F60 /* CardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardViewController.h; sourceTree = "<group>"; };
-		A61691F01F28F90A00126F60 /* CardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardViewController.m; sourceTree = "<group>"; };
-		A61691F11F28F90A00126F60 /* iflyMSC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = iflyMSC.framework; sourceTree = "<group>"; };
-		A61691F21F28F90A00126F60 /* NSData+CommonCrypto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+CommonCrypto.h"; sourceTree = "<group>"; };
-		A61691F31F28F90A00126F60 /* NSData+CommonCrypto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+CommonCrypto.m"; sourceTree = "<group>"; };
 		A61691F81F28F9EA00126F60 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		A61691FA1F28F9FF00126F60 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A61691FC1F28FA0900126F60 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
@@ -112,6 +107,11 @@
 		A616920A1F28FA4300126F60 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		A616920C1F28FA4900126F60 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
 		A616920F1F28FA9A00126F60 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		A61692121F2982CB00126F60 /* CardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardViewController.h; sourceTree = "<group>"; };
+		A61692131F2982CB00126F60 /* CardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardViewController.m; sourceTree = "<group>"; };
+		A61692141F2982CB00126F60 /* iflyMSC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = iflyMSC.framework; sourceTree = "<group>"; };
+		A61692151F2982CB00126F60 /* NSData+CommonCrypto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+CommonCrypto.h"; sourceTree = "<group>"; };
+		A61692161F2982CB00126F60 /* NSData+CommonCrypto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+CommonCrypto.m"; sourceTree = "<group>"; };
 		A628C2E61EB9E8D500D56319 /* libzbar.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libzbar.a; sourceTree = "<group>"; };
 		A6EA82BA0F6A5BFC3AC9E12F /* libPods-ImportEMC.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ImportEMC.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF5F51A3437EB3ABD463BC66 /* Pods-ImportEMC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ImportEMC.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ImportEMC/Pods-ImportEMC.debug.xcconfig"; sourceTree = "<group>"; };
@@ -123,10 +123,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				A61692101F28FA9A00126F60 /* libz.tbd in Frameworks */,
-				A616920E1F28FA5300126F60 /* iflyMSC.framework in Frameworks */,
 				A616920D1F28FA4900126F60 /* AssetsLibrary.framework in Frameworks */,
 				A616920B1F28FA4300126F60 /* CoreLocation.framework in Frameworks */,
 				A61692091F28FA3C00126F60 /* AVFoundation.framework in Frameworks */,
+				A61692181F2982CB00126F60 /* iflyMSC.framework in Frameworks */,
 				A61692071F28FA3300126F60 /* AddressBook.framework in Frameworks */,
 				A61692051F28FA2A00126F60 /* AudioToolbox.framework in Frameworks */,
 				A61692031F28FA2400126F60 /* SystemConfiguration.framework in Frameworks */,
@@ -147,7 +147,7 @@
 		7E8D0A7A1DD1997B00051C4F = {
 			isa = PBXGroup;
 			children = (
-				A61691EE1F28F90A00126F60 /* EMC */,
+				A61692111F2982CB00126F60 /* HREMC */,
 				7E8D0AA01DD1A97C00051C4F /* oldEMC */,
 				7E8D0A851DD1997C00051C4F /* ImportEMC */,
 				7E8D0A841DD1997C00051C4F /* Products */,
@@ -295,16 +295,16 @@
 			path = Resources;
 			sourceTree = "<group>";
 		};
-		A61691EE1F28F90A00126F60 /* EMC */ = {
+		A61692111F2982CB00126F60 /* HREMC */ = {
 			isa = PBXGroup;
 			children = (
-				A61691EF1F28F90A00126F60 /* CardViewController.h */,
-				A61691F01F28F90A00126F60 /* CardViewController.m */,
-				A61691F11F28F90A00126F60 /* iflyMSC.framework */,
-				A61691F21F28F90A00126F60 /* NSData+CommonCrypto.h */,
-				A61691F31F28F90A00126F60 /* NSData+CommonCrypto.m */,
+				A61692121F2982CB00126F60 /* CardViewController.h */,
+				A61692131F2982CB00126F60 /* CardViewController.m */,
+				A61692141F2982CB00126F60 /* iflyMSC.framework */,
+				A61692151F2982CB00126F60 /* NSData+CommonCrypto.h */,
+				A61692161F2982CB00126F60 /* NSData+CommonCrypto.m */,
 			);
-			path = EMC;
+			path = HREMC;
 			sourceTree = "<group>";
 		};
 		C0EFEA8322DA2F7F5A928514 /* Pods */ = {
@@ -448,11 +448,11 @@
 			files = (
 				7E8D0AD61DD1A97C00051C4F /* ScannerOverlayView.m in Sources */,
 				7E8D0AD81DD1A97C00051C4F /* WebViewJavascriptBridge.m in Sources */,
-				A61691F61F28F90A00126F60 /* NSData+CommonCrypto.m in Sources */,
+				A61692191F2982CB00126F60 /* NSData+CommonCrypto.m in Sources */,
 				7E8D0AD31DD1A97C00051C4F /* LinkViewController.m in Sources */,
 				7E8D0AD51DD1A97C00051C4F /* MBProgressHUD.m in Sources */,
 				7E8D0A8E1DD1997C00051C4F /* ViewController.m in Sources */,
-				A61691F41F28F90A00126F60 /* CardViewController.m in Sources */,
+				A61692171F2982CB00126F60 /* CardViewController.m in Sources */,
 				7E8D0A8B1DD1997C00051C4F /* AppDelegate.m in Sources */,
 				7E8D0ACC1DD1A97C00051C4F /* EMCViewController.m in Sources */,
 				7E8D0A881DD1997C00051C4F /* main.m in Sources */,
@@ -574,6 +574,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/EMC",
+					"$(PROJECT_DIR)/HREMC",
 				);
 				INFOPLIST_FILE = ImportEMC/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -596,6 +597,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/EMC",
+					"$(PROJECT_DIR)/HREMC",
 				);
 				INFOPLIST_FILE = ImportEMC/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
