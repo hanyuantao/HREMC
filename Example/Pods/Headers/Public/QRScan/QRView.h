@@ -1,0 +1,1 @@
+../../../QRScan/QRView.h
