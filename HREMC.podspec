@@ -91,7 +91,9 @@ Pod::Spec.new do |s|
   #
 
   # s.source_files  = "HREMC/", "HREMC/*.{h,m}"
-  s.source_files  = "HREMC/*.{h,m}"
+  # s.source_files  = "HREMC/*.{h,m}"
+  s.source_files  = "HREMC/**/*"
+
 #
   # s.exclude_files = "Classes/Exclude"
   # s.public_header_files = "Classes/**/*.h"
